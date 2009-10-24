@@ -1,0 +1,46 @@
+#dropBucket {
+    background-color: pink;
+    border: solid red 1px;
+    min-height: 24em;
+    width: 40%;
+    
+}
+#itemCache {
+    background-color: cyan;
+    border: solid blue 1px;
+}
+#status {
+    position: absolute;
+    z-index: 7777;
+    top: 5px;
+    right: 100px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: red;
+}
+.cacheWrapper {
+    float:right;
+    width: 55%;
+}
+ul.itemListing {
+    min-height: 24em; 
+}
+table td {
+    padding: 4px;
+}
+.item {
+    background-color: white;
+}
+ul { list-style-type: none; }
+li {
+    border: solid black 3px;
+    float: left; 
+    width: 100px;
+    padding: 0.4em; 
+    margin: 0 0.4em 0.4em 0; 
+    text-align: center; 
+}
+li h5 { 
+    margin: 0 0 0.4em; cursor: move; 
+}
+.item img { height: 100px; cursor: move;}

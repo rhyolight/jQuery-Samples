@@ -1,0 +1,39 @@
+body, textarea {
+	font-size: 20pt;
+}
+textarea#code {
+    width: 65%;
+    height: 140px;
+}
+
+#target {
+    border: solid red 1px;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+}
+#examples { 
+	float:right;
+	z-index: 7777;
+	position: absolute;
+	right: 0px;
+	background-color: white;
+	overflow: hidden;
+	border: solid 1px black;
+	width: 30%;
+	height: 100px;
+	font-size: 12pt;
+	padding: 10px;
+	margin-right: 20px;
+}
+#examples ul {
+	margin: 0px 10px;
+	padding: 0px;
+	list-style: none;
+}
+pre {
+	margin: 0px;
+}
+li p {
+	margin: 0px;
+}

@@ -1,0 +1,45 @@
+body, textarea {
+	font-size: 20pt;
+}
+textarea#code {
+    width: 70%;
+    height: 200px;
+}
+#target {
+    border: solid 1px black;
+    width: 400px;
+    height: 300px;
+}
+.selected {
+    background-color: pink;
+    border: 1px red solid;
+}
+#examples { 
+	z-index: 7777;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	background-color: white;
+	overflow: hidden;
+	border: solid 1px black;
+	width: 25%;
+	height: 300px;
+	font-size: 12pt;
+	padding: 10px;
+	margin-right: 20px;
+}
+#examples ul {
+	margin: 0px 10px;
+	padding: 0px;
+	list-style: none;
+}    
+pre {
+	margin: 0px;
+}
+.imageWrapper {
+    float:right;
+    margin: 10px;
+}
+.imageWrapper img {
+    width: 150px;
+}

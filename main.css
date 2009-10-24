@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+h1, h2, h3, h4, p {
+    padding: 0px;
+    margin: 0px;
+}
+.hover {
+	background-color: yellow;
+	cursor:pointer;
+}
+.back {
+    background-color: white;
+    border: solid black;
+    border-width: 0px 0px 1px 1px;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+    font-size: 12pt;
+    z-index: 8888;
+}

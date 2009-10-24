@@ -1,0 +1,16 @@
+body {
+    font-size: 16pt;
+}
+#target {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    background: #DDD;
+    margin-left: 50px;
+}
+#out {
+    float:right;
+    height:500px;
+    width: 40%;
+    overflow: auto;
+}
